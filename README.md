@@ -1,14 +1,26 @@
-# robot-waste-sorting-system
-Autonomous Waste Sorting Robot (Robotics + Deep Learning) :  robot detects → classifies → navigates → disposes
+# Autonomous Waste Sorting Robot
 
-This project simulates an autonomous robot that detects, classifies, and collects waste.
+## Overview
+This project simulates an autonomous robot that detects, classifies, and collects waste in a structured environment.
 
 ## My Contribution
-- Implemented RRT path planning for navigation
-- Integrated path planning with robot control in CoppeliaSim
+- Implemented RRT-based path planning for autonomous navigation
+- Integrated path planning with robot motion control in CoppeliaSim (V-REP)
+- Enabled obstacle avoidance and target-to-bin routing
 
-## Tools
-Python, CoppeliaSim (V-REP)
+## System Features
+- CNN-based waste classification (team contribution)
+- Autonomous navigation using RRT
+- Differential drive robot control
+- Simulation in CoppeliaSim
 
-## Result
-Robot successfully navigates to targets and disposal zones using RRT-based planning.
+## Tools & Technologies
+- Python
+- CoppeliaSim (V-REP)
+- PyTorch (classification module)
+
+## Results
+The robot successfully navigates to target objects and disposal zones using RRT-based planning and performs autonomous task execution in simulation.
+
+## Notes
+This was a team project. My primary contribution focused on navigation and control.
